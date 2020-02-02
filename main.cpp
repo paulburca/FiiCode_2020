@@ -1,7 +1,5 @@
 #include <iostream>
 #include <SDL2/SDL.h>
-#include <SDL2/SDL_image.h>
-#include <SDL2/SDL_ttf.h>
 using namespace std;
 
 int main(int argc, char* argv[])
@@ -9,7 +7,6 @@ int main(int argc, char* argv[])
     bool isRunning=true;
 
     SDL_Init(SDL_INIT_VIDEO);
-    IMG_Init(IMG_INIT_JPG);
 
     SDL_Window* window;
     SDL_Renderer* renderer;
