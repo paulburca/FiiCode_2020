@@ -11,7 +11,7 @@ int main(int argc, char* argv[])
     SDL_Window* window;
     SDL_Renderer* renderer;
 
-    window = SDL_CreateWindow("window", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 800,600,0);
+    window = SDL_CreateWindow("sa window", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 800,600,0);
     renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
 
     SDL_Event e;
@@ -27,7 +27,7 @@ int main(int argc, char* argv[])
         SDL_RenderPresent(renderer);
     }
 
-
+    cout<<"Done";
     SDL_DestroyWindow(window);
     SDL_DestroyRenderer(renderer);
 
