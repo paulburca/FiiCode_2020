@@ -16,7 +16,7 @@ class GameWindow
 
     protected:
         bool isRunning;
-        unsigned short status;
+        unsigned char status;
         void Clear();
         void Update();
         void Render();

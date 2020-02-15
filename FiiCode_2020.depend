@@ -20,3 +20,22 @@
 1581796894 d:\fiicode_2020\include\loadingscreen.h
 	<SDL2/SDL.h>
 
+1581796944 source:d:\github\fiicode_2020\main.cpp
+	<iostream>
+	<SDL2/SDL.h>
+	"GameWindow.h"
+
+1581797059 d:\github\fiicode_2020\include\gamewindow.h
+	"LoadingScreen.h"
+	<SDL2/SDL.h>
+
+1581796952 d:\github\fiicode_2020\include\loadingscreen.h
+	<SDL2/SDL.h>
+
+1581796952 source:d:\github\fiicode_2020\src\gamewindow.cpp
+	<iostream>
+	"GameWindow.h"
+
+1581796952 source:d:\github\fiicode_2020\src\loadingscreen.cpp
+	"LoadingScreen.h"
+
