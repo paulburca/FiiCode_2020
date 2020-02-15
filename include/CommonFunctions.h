@@ -1,0 +1,6 @@
+#ifndef COMMONFUNCTIONS_H_INCLUDED
+#define COMMONFUNCTIONS_H_INCLUDED
+#include <SDl2/SDL.h>
+bool onClick(SDL_Rect rectangle);
+
+#endif // COMMONFUNCTIONS_H_INCLUDED

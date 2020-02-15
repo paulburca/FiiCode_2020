@@ -2,7 +2,6 @@
 #define GAMEWINDOW_H
 #include "LoadingScreen.h"
 #include <SDL2/SDL.h>
-
 #define LOADING 0
 #define MENU 1
 #define GAMESCREEN 2
