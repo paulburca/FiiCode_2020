@@ -4,10 +4,19 @@
 	<SDL2/SDL.h>
 	"GameWindow.h"
 
-1581793412 source:d:\fiicode_2020\src\gamewindow.cpp
+1581795666 source:d:\fiicode_2020\src\gamewindow.cpp
 	<iostream>
 	<SDL2/SDL.h>
+	"LoadingScreen.h"
 	"GameWindow.h"
 
-1581795187 d:\fiicode_2020\include\gamewindow.h
+1581796640 d:\fiicode_2020\include\gamewindow.h
+	"LoadingScreen.h"
+	<SDL2/SDL.h>
+
+1581796858 source:d:\fiicode_2020\src\loadingscreen.cpp
+	"LoadingScreen.h"
+
+1581796894 d:\fiicode_2020\include\loadingscreen.h
+	<SDL2/SDL.h>
 

@@ -1,8 +1,9 @@
 #include "LoadingScreen.h"
 
-LoadingScreen::LoadingScreen()
+LoadingScreen::LoadingScreen(SDL_Window* window, SDL_Renderer* renderer)
 {
-    //ctor
+    this->window = window;
+    this->renderer = renderer;
 }
 void LoadingScreen::update()
 {
