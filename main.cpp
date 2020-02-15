@@ -27,7 +27,7 @@ int main(int argc, char* argv[])
         SDL_RenderPresent(renderer);
     }
 
-    cout<<"Done";
+    cout<<"Done v2";
     SDL_DestroyWindow(window);
     SDL_DestroyRenderer(renderer);
 
