@@ -16,6 +16,7 @@ class GameWindow
         void Render();
         SDL_Window* window;
         SDL_Renderer* renderer;
+        LoadingScreen* loading_screen;
         SDL_Event e;
     private:
 };

@@ -1,12 +1,13 @@
 # depslib dependency file v1.0
-1581792911 source:d:\fiicode_2020\main.cpp
+1581795022 source:d:\fiicode_2020\main.cpp
 	<iostream>
 	<SDL2/SDL.h>
 	"GameWindow.h"
 
-1581792726 source:d:\fiicode_2020\src\gamewindow.cpp
-	"SDL2/SDL.h"
+1581793412 source:d:\fiicode_2020\src\gamewindow.cpp
+	<iostream>
+	<SDL2/SDL.h>
 	"GameWindow.h"
 
-1581792911 d:\fiicode_2020\include\gamewindow.h
+1581795187 d:\fiicode_2020\include\gamewindow.h
 
