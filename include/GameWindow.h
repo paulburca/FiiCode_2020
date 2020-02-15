@@ -7,7 +7,7 @@ class GameWindow
     public:
         GameWindow();
         virtual ~GameWindow();
-        void run();
+        void Run();
 
     protected:
         bool isRunning;
