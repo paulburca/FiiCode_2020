@@ -1,5 +1,6 @@
 #ifndef LOADINGSCREEN_H
 #define LOADINGSCREEN_H
+
 #include <SDL2/SDL.h>
 
 class LoadingScreen
@@ -12,6 +13,9 @@ class LoadingScreen
     protected:
         SDL_Window* window;
         SDL_Renderer* renderer;
+        SDL_Texture* animation_frames[30];
+        SDL_Rect animation_rect;
+        Uint32 starting_time;
     private:
 };
 
