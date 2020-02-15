@@ -9,7 +9,7 @@ class GameWindow
         virtual ~GameWindow();
 
     protected:
-
+        bool isRunning;
     private:
 };
 
