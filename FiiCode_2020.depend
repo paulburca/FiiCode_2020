@@ -25,7 +25,7 @@
 	<SDL2/SDL.h>
 	"GameWindow.h"
 
-1581797059 d:\github\fiicode_2020\include\gamewindow.h
+1581806527 d:\github\fiicode_2020\include\gamewindow.h
 	"LoadingScreen.h"
 	<SDL2/SDL.h>
 
@@ -36,7 +36,7 @@
 	<iostream>
 	"GameWindow.h"
 
-1581804153 source:d:\github\fiicode_2020\src\loadingscreen.cpp
+1581804412 source:d:\github\fiicode_2020\src\loadingscreen.cpp
 	<string>
 	<SDL2/SDL.h>
 	"SDL2/SDL_image.h"
