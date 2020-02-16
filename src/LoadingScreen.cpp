@@ -10,7 +10,6 @@ LoadingScreen::LoadingScreen(SDL_Window* window, SDL_Renderer* renderer)
 
     starting_time = SDL_GetTicks();
     std::string nume;
-    char nr[3];
 
     animation_rect = {0, 0, 800, 450};
 
@@ -18,9 +17,8 @@ LoadingScreen::LoadingScreen(SDL_Window* window, SDL_Renderer* renderer)
 
     for(int i = 0; i < 30; ++i)
     {
-        itoa(i, nr, 10);
         nume = "resources/animatii/pac-man/loading";
-        nume.append(nr);
+        nume.append(std::to_string(i));
         nume += ".png";
         animation_frames[i] = IMG_LoadTexture(renderer, nume.c_str());
     }
