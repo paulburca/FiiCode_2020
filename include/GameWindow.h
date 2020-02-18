@@ -2,6 +2,8 @@
 #define GAMEWINDOW_H
 #include "LoadingScreen.h"
 #include <SDL2/SDL.h>
+#include <SDL2/SDL_ttf.h>
+#include "MenuScreen.h"
 #define LOADING 0
 #define MENU 1
 #define GAMESCREEN 2
@@ -19,10 +21,10 @@ class GameWindow
         void Clear();
         void Update();
         void Render();
+        MenuScreen* menu;
         SDL_Window* window;
         SDL_Renderer* renderer;
         LoadingScreen* loading_screen;
-        SDL_Event e;
     private:
 };
 

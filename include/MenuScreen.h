@@ -1,14 +1,16 @@
 #ifndef MENUSCREEN_H
 #define MENUSCREEN_H
-#define start 0
-#define options
-
+#include <SDL2/SDL.h>
+#include "Button.h"
 class MenuScreen
 {
     public:
-        MenuScreen();
+        MenuScreen(SDL_Renderer* renderer);
         virtual ~MenuScreen();
-
+        void Render();
+        void Update();
+        SDL_Renderer* renderer;
+        Button* buttons[4];
     protected:
 
     private:
