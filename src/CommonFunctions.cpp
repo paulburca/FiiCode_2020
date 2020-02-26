@@ -27,7 +27,6 @@ SDL_Texture* TextureFromText(SDL_Renderer* renderer,const char* text, const char
     *h = surf->h;
     *w = surf->w;
     return SDL_CreateTextureFromSurface(renderer, surf);
-
 }
 void CenterRectOnAnother(SDL_Rect* rect, SDL_Rect field)
 {

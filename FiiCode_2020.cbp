@@ -34,11 +34,17 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/Button.h" />
+		<Unit filename="include/CommonFunctions.h" />
 		<Unit filename="include/GameWindow.h" />
 		<Unit filename="include/LoadingScreen.h" />
+		<Unit filename="include/MenuScreen.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Button.cpp" />
+		<Unit filename="src/CommonFunctions.cpp" />
 		<Unit filename="src/GameWindow.cpp" />
 		<Unit filename="src/LoadingScreen.cpp" />
+		<Unit filename="src/MenuScreen.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
